@@ -1,0 +1,57 @@
+
+.main_block{
+  display: flex;
+  flex-direction: row;
+
+}
+.main_block div{
+  width: 50%;
+}
+input{
+  width:100%;
+}
+textarea{
+  width:100%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.div_load_task{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+  align-items: center;
+}
+.save_btn{
+  background-color: #6dff48;
+}
+.update_btn{
+  background-color: #92ffa7;
+}
+.cancel_btn{
+  background-color: #ff7ab1;
+}
+.load_task_btn{
+  height: 50px;
+  background-color: #acfffb;
+}
+.tbl_btn{
+  margin: 5px;
+}
+.btn_delete{
+  background-color: #ff6c62;
+}
+.btn_edit{
+  background-color: #fffb12;
+}
